@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/men1" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buzzcut shape up"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            app:srcCompat="@drawable/men2"
+            android:layout_marginTop="9dp"
+            android:layout_below="@+id/textView1"
+            android:layout_alignStart="@+id/imageView" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classic Pompadour"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView2"
+            android:layout_alignStart="@id/imageView1"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men3"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Combover with a roll"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/imageView2"
+            android:layout_alignStart="@id/imageView2"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men4"/>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flat top"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/imageView3"
+            android:layout_alignStart="@id/imageView3"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men5"/>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High fade curly hair"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView5"
+            android:layout_alignStart="@id/imageView4"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men6"/>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High fade loose pompadour "
+            android:textSize="18sp"
+            android:layout_below="@+id/imageView5"
+            android:layout_alignEnd="@+id/imageView6" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView6"
+            android:layout_alignStart="@id/imageView5"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men7"/>
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High fade textured quiff haircut"
+            android:textSize="18sp"
+            android:layout_above="@+id/imageView7"
+            android:layout_alignStart="@+id/textView9" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/imageView6"
+            android:layout_alignStart="@id/imageView6"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men8"/>
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light taper fade long hair"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView8"
+            android:layout_alignStart="@id/imageView7"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men9"/>
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long combover volume"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView8" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView9"
+            android:layout_alignStart="@id/imageView8"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men10"/>
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long hair undercut ponytail"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView9" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView10"
+            android:layout_alignStart="@id/imageView9"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men11"/>
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long hair undercut viking chic"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView10" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView11"
+            android:layout_alignStart="@id/imageView10"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men12"/>
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long hair undercut"
+            android:textSize="18sp"
+            android:layout_alignBottom="@+id/imageView11"
+            android:layout_alignEnd="@+id/textView11"
+            android:layout_marginBottom="11dp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView12"
+            android:layout_alignStart="@id/imageView11"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men13"/>
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long side fringe low fade"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView12" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView13"
+            android:layout_alignStart="@id/imageView12"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men14"/>
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long side part hair"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView13" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView14"
+            android:layout_alignStart="@id/imageView13"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men15"/>
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long slick back tapered sides"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView14" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView15"
+            android:layout_alignStart="@id/imageView14"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men16"/>
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long textured fringe high fade"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView15" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView16"
+            android:layout_alignStart="@id/imageView15"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men17"/>
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long textured spike"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView16" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView17"
+            android:layout_alignStart="@id/imageView16"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men18"/>
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long wavy hair messy look"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView17" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView18"
+            android:layout_alignStart="@id/imageView17"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men19"/>
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long wavy sweep beared sideburns"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView18" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView19"
+            android:layout_alignStart="@id/imageView18"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men20"/>
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loose and messy combover"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView19" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView20"
+            android:layout_alignStart="@id/imageView19"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men21"/>
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium length hair side part combover"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView20" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView21"
+            android:layout_alignStart="@id/imageView20"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men22"/>
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium length haircut for men with natural flow"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView21" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView22"
+            android:layout_alignStart="@id/imageView21"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men23"/>
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium length texture haircut"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView22" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView23"
+            android:layout_alignStart="@id/imageView22"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men24"/>
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium length textured high skin fade"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView23" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView24"
+            android:layout_alignStart="@id/imageView23"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men25"/>
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wavy haircut"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView24" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView25"
+            android:layout_alignStart="@id/imageView24"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men26"/>
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Messy medium length hairstyle"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView25" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView26"
+            android:layout_alignStart="@id/imageView25"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men27"/>
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Messy pomp fade"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView26" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView27"
+            android:layout_alignStart="@id/imageView26"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men28"/>
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modern pompadour fade hard part"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView27" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView28"
+            android:layout_alignStart="@id/imageView27"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men29"/>
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pomp fade shape up"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView28" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView29"
+            android:layout_alignStart="@id/imageView28"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men30"/>
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pomp fade shape up"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView29" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView30"
+            android:layout_alignStart="@id/imageView29"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men31"/>
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Short hair cropped fringe"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView30" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView31"
+            android:layout_alignStart="@id/imageView30"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men32"/>
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="short sides curly hair long fringe haircut"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView31" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView32"
+            android:layout_alignStart="@id/imageView31"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men33"/>
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Short sides medium hair on top"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView33" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView33"
+            android:layout_alignStart="@id/imageView32"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men34"/>
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Short length undercut"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView33" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView32"
+            android:layout_alignStart="@id/imageView33"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men35"/>
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Side fringe hi-lo fade"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView34" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView35"
+            android:layout_alignStart="@id/imageView34"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men36"/>
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Side fringe hi-lo fade"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView35" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView36"
+            android:layout_alignStart="@id/imageView35"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men37"/>
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Side part slicked back"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView36" />
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView37"
+            android:layout_alignStart="@id/imageView36"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men38"/>
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="side sweep hairstyle"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView37" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView38"
+            android:layout_alignStart="@id/imageView37"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men39"/>
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="skin fade blunt cut fringe"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView38" />
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView39"
+            android:layout_alignStart="@id/imageView38"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men40"/>
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="side sweep hairstyle"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView39" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView40"
+            android:layout_alignStart="@id/imageView39"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men41"/>
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slicked back hair"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView40" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView41"
+            android:layout_alignStart="@id/imageView40"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men42"/>
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thick spiked haircut"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView41" />
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView42"
+            android:layout_alignStart="@id/imageView41"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men43"/>
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modern spike undercut"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView42" />
+
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="265dp"
+            android:layout_height="286dp"
+            android:layout_below="@id/textView43"
+            android:layout_alignStart="@id/imageView42"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/men44"/>
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Textured pomp groomed beard"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/imageView43" />
+    </RelativeLayout>
+</ScrollView>
+
+
+

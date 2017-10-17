@@ -48,8 +48,8 @@
             android:layout_alignParentStart="true"
             android:layout_alignTop="@+id/imageView6"
             android:layout_marginStart="30dp"
-            android:onClick="topKnotOnClick"
-            app:srcCompat="@drawable/celtic_knot_half_updo" />
+            app:srcCompat="@drawable/celtic_knot_half_updo"
+            android:onClick="celticKnotOnClick"/>
 
         <TextView
             android:id="@+id/textView"
@@ -67,7 +67,8 @@
             android:layout_height="166dp"
             android:layout_alignStart="@+id/imageView5"
             android:layout_alignTop="@+id/imageView4"
-            app:srcCompat="@drawable/dutch_hairstyle" />
+            app:srcCompat="@drawable/Halfup_hairstyle5"
+            android:onClick="halfupHairstyleOnClick"/>
 
         <ImageView
             android:id="@+id/imageView4"
@@ -76,7 +77,8 @@
             android:layout_alignStart="@+id/imageView7"
             android:layout_below="@+id/textView6"
             android:layout_marginTop="33dp"
-            app:srcCompat="@drawable/half_up_french_braids" />
+            app:srcCompat="@drawable/Halfup_frenchbraids9"
+            android:onClick="halfupFrenchbraidOnClick"/>
 
         <ImageView
             android:id="@+id/imageView5"
@@ -84,7 +86,8 @@
             android:layout_height="166dp"
             android:layout_alignStart="@+id/imageView6"
             android:layout_alignTop="@+id/imageView7"
-            app:srcCompat="@drawable/fin_hairstyle" />
+            app:srcCompat="@drawable/Fin_Hairstyle4"
+            android:onClick="finHairstyleOnClick"/>
 
         <ImageView
             android:id="@+id/imageView6"
@@ -93,7 +96,8 @@
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="25dp"
             android:layout_marginTop="17dp"
-            app:srcCompat="@drawable/french_hairstyle" />
+            app:srcCompat="@drawable/French_hairstyle9"
+            android:onClick="frenchHairstyleOnClick"/>
 
         <ImageView
             android:id="@+id/imageView7"
@@ -102,7 +106,8 @@
             android:layout_alignStart="@+id/imageView"
             android:layout_below="@+id/textView9"
             android:layout_marginTop="30dp"
-            app:srcCompat="@drawable/dutch_hairstyle" />
+            app:srcCompat="@drawable/Dutch_hairstyle"
+            android:onClick="dutchHairstyleOnClick"/>
 
         <TextView
             android:id="@+id/textView4"
@@ -129,15 +134,16 @@
             android:layout_width="145dp"
             android:layout_height="166dp"
             android:layout_marginTop="21dp"
-            app:srcCompat="@drawable/infinity_knot"
+            app:srcCompat="@drawable/Texture_loose_updo_06"
             android:layout_below="@+id/textView4"
-            android:layout_alignStart="@+id/textView4" />
+            android:layout_alignStart="@+id/textView4"
+            android:onClick="textureLooseOnClick"/>
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Infinity Knot"
+            android:text="Texture loose updo"
             android:textSize="18sp"
             android:layout_below="@+id/imageView8"
             android:layout_alignStart="@+id/imageView8"
@@ -147,7 +153,7 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ladder Hairstyle"
+            android:text="Ladder hairstyle"
             android:textSize="18sp"
             android:layout_alignBaseline="@+id/textView7"
             android:layout_alignBottom="@+id/textView7"
@@ -156,22 +162,24 @@
             android:id="@+id/imageView9"
             android:layout_width="145dp"
             android:layout_height="166dp"
-            app:srcCompat="@drawable/ladder_hairstyle"
+            app:srcCompat="@drawable/Ladder_hairstyle8"
             android:layout_above="@+id/textView7"
-            android:layout_alignStart="@+id/textView5" />
+            android:layout_alignStart="@+id/textView5"
+            android:onClick="ladderHairstyleOnClick"/>
         <ImageView
             android:id="@+id/imageView10"
             android:layout_width="145dp"
             android:layout_height="166dp"
-            app:srcCompat="@drawable/messy_pigtail_braids"
+            app:srcCompat="@drawable/Prom_06"
             android:layout_marginTop="71dp"
             android:layout_below="@+id/imageView8"
-            android:layout_alignStart="@+id/imageView4" />
+            android:layout_alignStart="@+id/imageView4"
+            android:onClick="promOnClick"/>
         <TextView
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Messy Pigtail Braids"
+            android:text="Low bun"
             android:textSize="18sp"
             android:layout_toStartOf="@+id/textView"
             android:layout_below="@+id/imageView10"
@@ -181,27 +189,29 @@
             android:id="@+id/imageView11"
             android:layout_width="145dp"
             android:layout_height="166dp"
-            app:srcCompat="@drawable/reverse_braided_bun"
+            app:srcCompat="@drawable/Top_bun6"
             android:layout_marginTop="71dp"
             android:layout_below="@+id/imageView9"
-            android:layout_alignStart="@+id/imageView9" />
+            android:layout_alignStart="@+id/imageView9"
+            android:onClick="topBunOnClick"/>
         <TextView
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Reverse Braided Bun"
+            android:text="Top Bun"
             android:textSize="18sp"
             android:layout_alignBaseline="@+id/textView8"
             android:layout_alignBottom="@+id/textView8"
-            android:layout_alignEnd="@+id/imageView11" />
+            android:layout_alignEnd="@+id/textView6" />
         <ImageView
             android:id="@+id/imageView12"
             android:layout_width="145dp"
             android:layout_height="166dp"
-            app:srcCompat="@drawable/side_swept_waterfall_braid"
+            app:srcCompat="@drawable/Sideswept_waterfallbraid8"
             android:layout_marginTop="71dp"
             android:layout_below="@+id/imageView10"
-            android:layout_alignStart="@+id/imageView10" />
+            android:layout_alignStart="@+id/imageView10"
+            android:onClick="sidesweptWatBraidOnClick"/>
         <TextView
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
@@ -216,10 +226,11 @@
             android:id="@+id/imageView13"
             android:layout_width="145dp"
             android:layout_height="166dp"
-            app:srcCompat="@drawable/the_braided_bun"
+            app:srcCompat="@drawable/The_braided_bun5"
             android:layout_marginTop="71dp"
             android:layout_below="@+id/imageView11"
-            android:layout_alignStart="@+id/imageView11" />
+            android:layout_alignStart="@+id/imageView11"
+            android:onClick="braidedBunOnClick"/>
         <TextView
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
@@ -233,36 +244,37 @@
             android:id="@+id/imageView14"
             android:layout_width="145dp"
             android:layout_height="166dp"
-            app:srcCompat="@drawable/the_top_half"
+            app:srcCompat="@drawable/The_top_half9"
             android:layout_marginTop="71dp"
             android:layout_below="@+id/imageView12"
-            android:layout_alignStart="@+id/imageView12" />
+            android:layout_alignStart="@+id/imageView12"
+            android:onClick="topHalfOnClick"/>
         <TextView
             android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="The Top Half"
             android:textSize="18sp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignTop="@+id/textView11"
-            android:layout_toEndOf="@+id/textView14" />
+            android:layout_below="@+id/imageView14"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="20dp" />
         <ImageView
             android:id="@+id/imageView15"
             android:layout_width="145dp"
             android:layout_height="166dp"
-            app:srcCompat="@drawable/three_strand_braid"
+            app:srcCompat="@drawable/Cinnamon_09"
             android:layout_marginTop="71dp"
             android:layout_below="@+id/imageView13"
-            android:layout_alignStart="@+id/imageView13" />
+            android:layout_alignStart="@+id/imageView13"
+            android:onClick="cinnamonOnClick"/>
         <TextView
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Three Strand Braid"
+            android:text="Cinnamon"
             android:textSize="18sp"
             android:layout_alignParentBottom="true"
-            android:layout_toStartOf="@+id/textView11"
-            android:layout_marginTop="10dp"/>
+            android:layout_alignEnd="@+id/textView" />
     </RelativeLayout>
 
 </ScrollView>
